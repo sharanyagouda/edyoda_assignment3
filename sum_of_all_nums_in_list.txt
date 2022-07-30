@@ -1,0 +1,14 @@
+def demo():
+    count=0
+    for i in lst:
+        count+=i
+    print(count)    
+
+
+lst=[]
+num=int(input("enter size of list"))
+for i in range(num):
+    ele=int(input("enter the value"))
+    lst.append(ele)
+print(lst) 
+demo()   
