@@ -1,0 +1,9 @@
+def demo1(name):
+    str1=""
+    for i in name:
+        str1 = i+str1
+    print(str1)  
+
+demo1("sharanya123")      
+
+   
